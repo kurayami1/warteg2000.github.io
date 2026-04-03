@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Catering Service</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f8f8f8;
-      padding: 50px;
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      color: #666;
-      font-size: 18px;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 20px;
-      background-color: #e63946;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-    }
-    a.button:hover {
-      background-color: #c62828;
-    }
-  </style>
+  <title>My Catering</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Delicious Catering</h1>
-  <p>Fresh, homemade meals for your events</p>
+  <!-- HERO -->
+  <header class="hero">
+    <img src="images/header.jpg" alt="My Catering Banner">
+  </header>
 
-  <a class="button" href="mailto:yourname@gmail.com">
-    Contact Us via Email
-  </a>
+  <!-- MENU -->
+  <section class="menu">
+    <div class="card">Menu 1</div>
+    <div class="card">Menu 2</div>
+    <div class="card">Menu 3</div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing">
+    <h2>Pricing</h2>
+    <div class="price-columns">
+      <div>Package A</div>
+      <div>Package B</div>
+      <div>Package C</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <a href="mailto:yourname@gmail.com" class="button">
+      Order via Email
+    </a>
+  </section>
 
 </body>
 </html>
