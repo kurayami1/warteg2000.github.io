@@ -28,7 +28,7 @@ body {
 /* PRICING */
 .pricing {
   padding: 40px;
-  color: #48faf7;
+  color: #49c7ef
 }
 
 .price-columns {
@@ -41,7 +41,7 @@ body {
 .button {
   display: inline-block;
   padding: 12px 20px;
-  background: #48faf7;
+  background: #49c7ef;
   color: white;
   text-decoration: none;
   border-radius: 8px;
